@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="TServer" basedir="." default="makewar">  
+	<property name="classpath_lib" value="WebContent/WEB-INF/lib" />  
+    <property name="sources" value="${basedir}/src"/>    
+    
+    <path id="classpath">
+        <fileset dir="${classpath_lib}">    
+            <include name="*.jar"/>    
+        </fileset>    
+    </path>    
+        
+	<property name="debuglevel" value="source,lines,vars"/>        
+    <property name="target" value="1.6"/>  
+    <property name="source" value="1.6"/>  
+	
+    <target name="clean">  
+        <delete dir="${basedir}/release/" />
+		<mkdir dir="${basedir}/release" />
+    </target>  
+	      
+    <target name="init" depends="clean">  
+        <property name="release" value="release/TServer"></property>  
+        <property name="src" value="src"></property>  
+        <mkdir dir="${release}"/>  
+        <mkdir dir="${release}\WEB-INF"/>  
+        <mkdir dir="${release}\WEB-INF\classes"/>  
+        <mkdir dir="${release}\WEB-INF\lib"/>  
+        <copy todir="${release}">  
+            <fileset dir="${basedir}\WebContent">  
+                <include name="**" />                    
+            </fileset>  
+        </copy>  
+    </target>  
+ 	
+    <target name="complie" depends="init">    
+        <javac target="1.7" srcdir="${src}" destdir="${release}/WEB-INF/classes" encoding="utf-8" debug="on" >
+			<classpath refid="classpath">  
+            </classpath>
+        </javac> 
+		<copy todir="${release}/WEB-INF/classes">  
+            <fileset dir="${basedir}\config">  
+                <include name="**" />                    
+            </fileset>  
+        </copy>
+        <!--<copy todir="${basedir}/release/">
+            <fileset dir="${basedir}">    
+                <include name="修改记录.txt"/>
+            </fileset>
+        </copy>--> 
+    </target>  
+	
+    <target name="makewar" depends="complie">  
+        <war warfile="${basedir}/release/TServer.war" webxml="${release}/WEB-INF/web.xml"> 		  
+        <fileset dir="${release}"/>  
+        </war>        
+    </target>  
+       
+</project>

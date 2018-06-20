@@ -1,0 +1,114 @@
+[
+          {
+                    "featureType": "background",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#08304b"
+                    }
+          },
+		  {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#021019"
+                    }
+          },
+          {
+                    "featureType": "highway",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#000000"
+                    }
+          },
+          {
+                    "featureType": "highway",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#147a92"
+                    }
+          },
+          {
+                    "featureType": "localRoad",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#000000"
+                    }
+          },
+          {
+                    "featureType": "localRoad",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#08304b"
+                    }
+          },
+          {
+                    "featureType": "land",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#062032"
+                    }
+          },
+          {
+                    "featureType": "green",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#062032"
+                    }
+          },
+          {
+                    "featureType": "railway",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#000000"
+                    }
+          },
+          {
+                    "featureType": "railway",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#08304b"
+                    }
+          },
+          {
+                    "featureType": "subway",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#381a1c"
+                    }
+          },
+          {
+                    "featureType": "subway",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#4187cf"
+                    }
+          },
+          {
+                    "featureType": "poi",
+                    "elementType": "labels.text.fill",
+                    "stylers": {
+                              "color": "#857f7f"
+                    }
+          },
+          {
+                    "featureType": "poi",
+                    "elementType": "labels.text.stroke",
+                    "stylers": {
+                              "color": "#000000"
+                    }
+          },
+          {
+                    "featureType": "roadLabel",
+                    "elementType": "labels.text.fill",
+                    "stylers": {
+                              "color": "#857f7f"
+                    }
+          },
+          {
+                    "featureType": "roadLabel",
+                    "elementType": "labels.text.stroke",
+                    "stylers": {
+                              "color": "#000000"
+                    }
+          }
+]

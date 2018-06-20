@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+	<!--name 唯一且为英文 -->
+	<!--title 可为中文 -->
+	<!--mapType 现在支持arcgis、NPGIS、model -->
+	<!--mapUrl 地图数据文件存放地址 -->
+	<!--type 
+	                       切片服务:png 或没有此属性
+	                       高德矢量服务:gaodejson
+	                       百度矢量服务 :json,
+	                       模型服务:model
+	-->
+	<!--table 模型服务属性表名称 -->
+	<map>
+		<name>shanghaiBaseMap</name>
+		<title>上海地图</title>
+		<mapType>arcgis</mapType>
+		<mapUrl>mapTitle/shanghaiBaseMap</mapUrl>
+	</map>	
+</maps>

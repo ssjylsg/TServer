@@ -1,0 +1,30 @@
+[
+		  {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#d1e5ff"
+                    }
+          },
+          {
+                    "featureType": "highway",
+                    "elementType": "geometry",
+                    "stylers": {
+                              "color": "#f49935"
+                    }
+          },
+          {
+                    "featureType": "railway",
+                    "elementType": "all",
+                    "stylers": {
+                              "visibility": "off"
+                    }
+          },
+          {
+                    "featureType": "poi",
+                    "elementType": "labels",
+                    "stylers": {
+                              "visibility": "off"
+                    }
+          }
+]

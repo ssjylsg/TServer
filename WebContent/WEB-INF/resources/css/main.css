@@ -1,0 +1,193 @@
+.top {
+	border: solid 1px black;
+	border-left: none;
+	border-right: none;
+	text-align: left;
+	background-color: rgb(229, 239, 247);
+	height: 33px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.mainform {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.arcgis {
+	border-radius: 10px 10px 10px 10px;
+	width: 960px;
+	margin-top: 20px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.primaryTabs {
+	background-color: #f7f7f3;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	background-image: -moz-linear-gradient(center top, #f7f7f3, #e1e1dd);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f7f7f3),
+		to(#e1e1dd));
+	/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e7e7e7'); */
+	height: 42px;
+	overflow: hidden;
+	padding: 0 10px;
+	font-size: 15px;
+	display: block;
+	font-family: Avenir-Light, Verdana, Geneva, sans-serif;
+}
+.secondaryTabs {
+	background-color: #38698c;
+	-moz-box-shadow: inset 1px 1px 3px #38698c /* #0c547a */;
+	-webkit-box-shadow: inset 1px 1px 3px #38698c /* #0c547a */;
+	box-shadow: inset 1px 1px 3px #38698c /* #0c547a */;
+	background: -moz-linear-gradient(center top, #64a7ce 0%, #38698c 100%);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#64a7ce),
+		to(#38698c));
+	color: #fff;
+	min-height: 10px;
+	font-size: 12px;
+	padding: 0 10px;
+}
+.container_12 {
+margin-left: auto;
+margin-right: auto;
+width: 960px;
+}
+.bodyclass {
+	width: auto;
+	height: 100%;
+	max-width: 2560px;
+	width: expression(document.body.clientWidth < 1024?"1024px": "auto" );
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+}
+.headerweclome{
+	
+	width: 100%;
+	height: 529px;
+	background-color: #1e4a7e;
+	float: left;
+}
+.headWelcomeTitle{
+	color: rgb(255,255,255);	 
+    width: 1162px;
+    height: 243px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Adobe黑体;
+    font-size: 26px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.headWelcomePic{
+	width: 1043px;
+    height: 286px;
+    background: url(/TServer/resources/img/1920earth.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.headMenu {
+    max-width: 1380px;
+    width: auto;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headlogo {
+    width: 226px;
+    height: 45px;
+    margin-top: 23px;
+    float: left;
+}
+
+.headMenu .headMenus {
+    width: auto;
+    height: 92px;
+    float: right;
+    text-align: right;
+}
+.headMenus ul {
+    float: left;
+}
+.headMenus .subHeadMenu {
+    float: left;
+    width: auto;
+    height: 92px;
+    line-height: 92px;
+    margin-left: 19px;
+    margin-right: 19px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.headMenus .subHeadMenu {
+    float: left;
+    width: auto;
+    height: 92px;
+    line-height: 92px;
+    margin-left: 19px;
+    margin-right: 19px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.headMenus .subHeadMenu {
+    float: left;
+    width: auto;
+    height: 92px;
+    line-height: 92px;
+    margin-left: 19px;
+    margin-right: 19px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.headMenus .subHeadMenu {
+    float: left;
+    width: auto;
+    height: 92px;
+    line-height: 92px;
+    margin-left: 19px;
+    margin-right: 19px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.btn-group {
+    float: left;
+    height: 92px;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.dropdown-menu {
+    min-width: 125px;
+    margin-left: -15px;
+    margin-top: -33px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+}

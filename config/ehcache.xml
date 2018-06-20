@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache dynamicConfig="false" monitoring="off" updateCheck="false"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd">
+
+	<diskStore path="user.home" />
+
+	<!-- <cache name="tileCache" maxElementsInMemory="20000" eternal="false"
+		overflowToDisk="true" diskPersistent="false" maxElementsOnDisk="0"
+		memoryStoreEvictionPolicy="LFU" /> -->
+		
+	<cache name="tileCache" maxElementsInMemory="50000" eternal="false"
+		memoryStoreEvictionPolicy="LFU" >
+		<persistence strategy="none"/><!-- localTempSwap -->
+	</cache>
+</ehcache>

@@ -1,0 +1,128 @@
+[
+          {
+                    "featureType": "background",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#f0cbea"
+                    }
+          },
+          {
+                    "featureType": "land",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#c5dac6"
+                    }
+          },
+          {
+                    "featureType": "green",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#c5dac6"
+                    }
+          },
+          {
+                    "featureType": "building",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#c5dac6"
+                    }
+          },
+          {
+                    "featureType": "manmade",
+                    "elementType": "all",
+                    "stylers": {
+                              "color": "#c5dac6"
+                    }
+          },
+          {
+                    "featureType": "highway",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#fde090"
+                    }
+          },
+          {
+                    "featureType": "highway",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#e2be8a"
+                    }
+          },
+          {
+                    "featureType": "ringRoad",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#fde090"
+                    }
+          },
+          {
+                    "featureType": "ringRoad",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#e2be8a"
+                    }
+          },
+          {
+                    "featureType": "nationalRoad",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#fde090"
+                    }
+          },
+          {
+                    "featureType": "nationalRoad",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#e2be8a"
+                    }
+          },
+          {
+                    "featureType": "provincialRoad",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#fde090"
+                    }
+          },
+          {
+                    "featureType": "provincialRoad",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#e2be8a"
+                    }
+          },
+          {
+                    "featureType": "localRoad",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#ffffff"
+                    }
+          },
+          {
+                    "featureType": "localRoad",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#ebe5e7"
+                    }
+          },
+          {
+                    "featureType": "other",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#ffffff"
+                    }
+          },
+          {
+                    "featureType": "other",
+                    "elementType": "geometry.stroke",
+                    "stylers": {
+                              "color": "#ebe5e7"
+                    }
+          },
+          {
+                    "featureType": "railway",
+                    "elementType": "geometry.fill",
+                    "stylers": {
+                              "color": "#000000"
+                    }
+          }
+]
